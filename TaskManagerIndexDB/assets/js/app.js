@@ -127,9 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Add class and the x marker for a 
                 link.className = 'delete-item secondary-content';
                 link.innerHTML = `
-                <i class="fa fa-remove"></i>
-                &nbsp;
+                
+                
                 <a href="edit.html?id=${cursor.value.id}"><i class="fa fa-edit"></i> </a>
+                <i class="fa fa-remove"></i>
                 `;
                 // Append link to li
                 li.appendChild(link);
@@ -175,6 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
         tasks.clear();
         displayTaskList();
         console.log("Tasks Cleared !!!");
-    }w
+    }
 
 });

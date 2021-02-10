@@ -3,7 +3,12 @@ i {
 }
 
 select{
+    color: black;
+    width: 5rem;
+    background-color: rgba(126, 126, 126,0.6);
+}
 
-    width: 20rem;
-    border: 2px grey solid;
+select option{
+    color: black;
+    background-color: rgba(126, 126, 126,0.6);
 }
